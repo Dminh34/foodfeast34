@@ -209,3 +209,29 @@ body {
     font-size: 18px;
     vertical-align: top;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.list-img li {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.list-img img {
+    width: 100%;
+    background-color: black;
+    height: auto;
+    opacity: 0.85;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.list-img li img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: transform 0.5s, opacity 0.5s;
+}
