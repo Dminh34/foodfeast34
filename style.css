@@ -96,16 +96,19 @@ body {
     font-family: 'Mukta', sans-serif;
     border: 1px solid rgb(219, 132, 0);
     color: rgb(219, 132, 0);
+    transition: color 0.25s, background-color 0.25s;
 }
 
 .content-button a:hover {
     color: white;
     background-color: rgb(219, 132, 0);
+    transition: color 0.25s, background-color 0.25s;
 }
 
 #spe-cont {
     color: white;
     background-color: rgb(219, 132, 0);
+    transition: color 0.25s, background-color 0.25s;
     
 }
 
@@ -113,6 +116,7 @@ body {
     color: rgb(231, 231, 231);
     background-color: rgb(202, 121, 0);
     border: 1px solid rgb(202, 121, 0);
+    transition: color 0.25s, background-color 0.25s;
 }
 
 .body-intro {
@@ -198,7 +202,9 @@ body {
     text-align: start;
     margin: 0px;
 }
-
+tr {
+    border:none !important; 
+}
 .space {
     width: 2.5%;
     height: 10px;
