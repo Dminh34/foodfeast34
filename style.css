@@ -142,8 +142,8 @@ body {
 }
 
 .body-intro .title p {
-    padding-top: 30px;
-    font-size: 35px;
+    padding-top: 50px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -154,7 +154,7 @@ body {
     content: " ";
     width: 200px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .body-intro .des {
@@ -205,14 +205,15 @@ ul {
 
 .list-img li {
     width: 25%;
+    height: 250px;
     float: left;
     overflow: hidden;
 }
 
 .list-img img {
     width: 100%;
+    height: 100%;
     background-color: black;
-    height: auto;
     opacity: 0.85;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
@@ -226,5 +227,67 @@ ul {
 
 .app_part {
     width: 100%;
+    height: 650px;
+    background-color: rgb(218, 218, 218);
+}
+
+.app_part .title {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.app_part .title p {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app_part .title p::after {
+    display: block;
+    height: 3px;
+    background-color: orange;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.app_part .des {
+    width: 100%;
     height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.app_part .phone {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app_part .phone img {
+    height: 400px;
+    margin-right: 25px;
+}
+
+.app_part .steps {
+    width: 30%;
+    margin-left: 25px;
+}
+
+.steps div {
+    display: flex;
+}
+
+.steps .abc {
+    width: 15%;
+    border: 2px solid rgb(238, 135, 0);
+    border-radius: 50%;
+    color: rgb(238, 135, 0);
+    font-size: 25px;
+    padding: auto;
 }
