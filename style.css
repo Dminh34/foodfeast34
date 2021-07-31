@@ -171,50 +171,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.body-intro .head2 {
+.body-intro .head_2 {
     width: 100%;
     height: 400px;
-    display: flex;
-    justify-content: center;
 }
 
-.head2 .table {
+.head_2 .table {
     width: 80%;
 }
 
-.head2 table {
-    width: 100%;
-
-}
-
-.icon {
-    font-size: 70px;
-    margin-top: 15px;
-    color: orange;
-    padding: 0px;
-}
-
-.head2 table th {
+.head_2 .table .section {
     width: 15%;
-    height: 10px;
-    font-size: 21px;
-    font-family: 'Mukta', sans-serif;
-    text-align: start;
-    margin: 0px;
-}
-tr {
-    border:none !important; 
-}
-.space {
-    width: 2.5%;
-    height: 10px;
 }
 
-.td-des td {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    vertical-align: top;
-}
+.head_2 .table {
+    width: 80%;
+}k nh
 
 ul {
     list-style-type: none;
