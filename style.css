@@ -291,3 +291,72 @@ ul {
     font-size: 25px;
     padding: auto;
 }
+
+.part-5 {
+    width: 100%;
+    height: 500px;
+}
+
+.part-5 .title {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.part-5 .title p {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part-5 .title p::after {
+    display: block;
+    height: 3px;
+    background-color: orange;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.p5-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cities .section {
+    width: 20%;
+}
+
+.cities .section img {
+    width: 100%;
+}
+
+#name {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#email {
+    text-decoration: underline;
+    color: rgb(238, 135, 0);
+    transition: color 0.25s;
+}
+
+#email:hover {
+    color: rgb(204, 116, 0);
+    transition: color 0.25s;
+}
+
+.cities{
+    padding:16px 50px;
+}
+
+.cities img{
+    width:250px;
+}
+
+.cities .des {
+    display: flex;
+}
